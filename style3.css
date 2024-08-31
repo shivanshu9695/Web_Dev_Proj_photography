@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: rgba(62, 62, 61, 0.137);   */
+}
+#main_3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#left_div_help{
+    width: 55%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#left_div_help h1{
+     line-height: 40px;
+}
+#left_div_help #list_help{
+    /* border: 2px solid black; */
+    margin:40px 0px;
+}
+#left_div_help #list_help ul{
+    margin: 20px 0px;
+}
+#left_div_help #list_help ul li i,span{
+    color: black;
+}
+#left_div_help #list_help ul li{
+    margin: 25px 0px;
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+#right_div_photo{
+    /* border: 5px solid red; */
+    position: absolute;
+    width: 540px;
+    height: 500px;
+    top: 8%;
+    right: 5%;
+}
+#right_div_photo_1{
+    position: absolute;
+    width: 400px;
+    top: 7%;
+    right: 4%;
+    /* border: 5px solid black; */
+    z-index: 3;
+    background-color: rgb(5, 5, 45);
+}
+#right_div_photo_1 h3{
+    font-weight: 700;
+    margin: 30px 6px 10px 6px ;
+    color: white;
+}
+.box-input input,textarea{
+    background-color: white;
+}
+.box-input input{
+    height: 20px;
+    width: 115px;
+    margin: 6px 6px;
+}
+.box-input i{
+    position: absolute;
+    padding: 13px 20px;
+    min-width: 40px;
+}
+
+.box-input #name{
+    padding: 5px 35px;
+}
+.box-input #email{
+    padding: 5px 35px;
+    width: 315px;
+}
+.box-input .address i{
+    position: absolute;
+    padding: 13px 20px;
+    min-width: 40px;
+}
+.box-input #address_name{
+    padding: 5px 35px;
+}
+.box-input #address_name{
+    height: 150px;
+    width: 314px;
+    margin: 6px 6px 6px 8px;
+}
+#right_div_photo_1 .one-line{
+    display: flex;
+}
+#right_div_photo .btn-send{
+    height: 40px;
+    width: 387px;
+    margin: 6px 6px 6px 8px;
+    background-color: white;
+    padding: 5px 35px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+#right_div_photo .btn-send:hover{
+    background-color:rgb(5, 5, 45) ;
+    color: white;
+    border: 1px solid wheat;
+    cursor: pointer;
+}
+#right_div_photo_2{
+    position: absolute;
+    width: 397px;
+    height: 398px;
+    top: 10%;
+    right: 10%;
+    background-color: rgb(104, 20, 20);
+    z-index: 1;
+}
+#right_div_photo_3 img{
+    position: absolute;
+    width: 405px;
+    height: 407px;
+    top: 2.5%;
+    right: 0%;
+}
+#contactme #contactme_bottom{
+    background: url(bg-footer.jpg);
+    background-size: cover;
+    width: 100%;
+}
+#contactme_bottom_1{
+    width: 99.1%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 5px 10px 5px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.26);
+    /* box-shadow: 0px 4px 8px black; */
+}
+#contactme_bottom_101{
+    width: 50%;
+}
+#contactme_bottom_101 h1{
+    color: white;
+    margin: 0px 10px 30px 10px;
+}
+#contactme_bottom_101 p{
+    color: white;
+   
+    margin: 0px 10px 30px 10px;
+}
+#contactme_bottom_102{
+    margin: 45px 10px 10px 10px;
+}
+#contactme_bottom_btn #bottom_email{
+    height: 29.7px;
+    width: 250px;
+    border: 1px solid white;
+}
+#contactme_bottom_btn #bottom_email{
+    padding: 2px 10px 2px 15px;
+}
+#contactme_bottom_btn .btn-subscribe{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 6px 10px 10px 10px;
+    margin-left: -4px;
+    margin-top: 0.3px
+}
+#contactme_bottom_btn .btn-subscribe:hover{
+    cursor: pointer;
+}
+#contactme_bottom_btn{
+    display: flex;
+    
+}
+#contactme_bottom_2_head{
+    width: 50%;
+    padding: 5px 3px 10px 33px;
+}
+#contactme_bottom_2{
+    width: 98.8%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 3px 10px 5px;
+    /* border: 2px solid red; */
+}
+#contactme_bottom_2_head a strong{
+    font-size: 33px;
+    letter-spacing: -5.3px;
+    padding-right: 8px;
+}
+#contactme_bottom_2_head a span{
+    font-weight: 400;
+    color: white;
+}
+#contactme_bottom_2_head a{ 
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+#contactme_bottom_2_para p{
+    color: #fff;
+    width: 80%;
+    margin: 20px 10px 15px 33px;
+}
+#contactme_bottom_202_quicklinks h2{
+    color: #fff;
+    margin: 10px 10px 15px 5px;
+    font-weight: 500;
+}
+#contactme_bottom_202_quicklinks ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#contactme_bottom_202_quicklinks ul li{
+    list-style-type: none;
+    padding: 10px 5px 8px 10px;
+}
+#contactme_bottom_203{
+    margin-left: 80px;
+    /* border: 2px solid red; */
+}
+#contactme_bottom_203_connectme h2{
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 10px 20px 80px;
+}
+#contactme_bottom_203_connectme ul li i{
+    color: #fff;
+    margin: 10px 10px 8px 80px;
+}
+#contactme_bottom_203_connectme ul li span{
+    color: #fff;
+    margin: 10px 10px 8px 1px;
+}

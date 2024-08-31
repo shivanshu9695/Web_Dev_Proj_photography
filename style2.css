@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main_container{
+    display: flex;
+    height: 100vh;
+    /* background-color: rgba(19, 18, 18, 0.106); */
+}
+#left_div{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 70px;
+    right: 500px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+#left_div_1{
+    /* border: 1px solid black; */
+    padding: 14px;
+    width: 700px;
+}
+#left_div_1 h1{
+    padding-bottom: 20px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+#left_div_1 p{
+    padding-bottom: 20px;
+    width: 520px;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    line-height: 19px;
+}
+#left_div_2 ul{
+    list-style-type: none;
+    padding: 1.6px;
+    margin: 0px 15px;
+    /* border: 1px solid black; */
+    width: 400px;
+    font-size: 14px;
+}
+#left_div_2 ul li{
+    margin: 8px 0px;
+    font-size: 21px;
+    color: #111;
+}
+#left_div_2 ul li i{
+    font-size: 13px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 4px;
+}
+#left_div_2 ul li span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+#horijontal_line{
+    height: 1px;
+    width: 450px;
+    margin: 40px 20px 5px 20px;
+   background-color: #000000;
+   /* border: 1px solid black; */
+}
+#left_div_3{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 500px;
+    /* position: absolute; */
+    margin-top:1px;
+    /* left: 5px; */
+}
+#left_div_3 img{
+    width: 70px;
+    height: 80px;
+    padding: 12px;
+}
+#signature{
+    font-size: 17px;
+    font-weight: 200px;
+    margin: 36px 13px;
+}
+#signature p span{
+    font-size: 25px;
+    letter-spacing: -5px;
+}
+#signature p{
+    line-height: 19px;
+}
+#right_div{
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 800px;
+    top: 90px;
+    width: 400px;
+    height: 500px;
+}
+#right_div_image img{
+    width: 290px;
+    height: 390px;
+    position: absolute;
+   top: 42px;
+   left: 25px;
+}
+#image_shadow{
+    width: 290px;
+    height: 390px;
+   background-color: rgba(47, 52, 52, 0.54);
+   /* border: 3px solid rgb(20, 6, 6); */
+   opacity: 0.3;
+   position: absolute;
+   top: 18px;
+}
+#right_div_2 img{
+    width: 280px;
+    height: 390px;
+    margin-top: 64px;
+    margin-left: 55px;
+    opacity: 1;
+}
